@@ -1,0 +1,2174 @@
+assignment2 - "Ethann01" Marking Receipt.
+====================
+
+Marking Command: "mvn -Dtest=BoardPanelTest#testHumanFirstGreedyMode test"
+
+Tests using the Human vs Greedy game mode with the player as the Musketeer. Navigates to the board panel screen, verifies that the turn is the Musketeer, makes a random move as the Musketeer, waits for the Guard to make a moves and the turn to switch back to the Musketeer, and then verifies that the Guard made a move.
+====================
+
+Compilation command: "mvn clean compile"
+
+====================
+
+Output of compilation:
+
+====================
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< assignment2:ThreeMusketeers >---------------------
+[INFO] Building ThreeMusketeers 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ ThreeMusketeers ---
+[INFO] Deleting C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ ThreeMusketeers ---
+[WARNING] ********************************************************************************************************************
+[WARNING] * Required filename-based automodules detected. Please don't publish this project to a public artifact repository! *
+[WARNING] ********************************************************************************************************************
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 21 source files to C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\target\classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.805 s
+[INFO] Finished at: 2021-11-18T11:40:12-05:00
+[INFO] ------------------------------------------------------------------------
+
+
+====================
+
+Output of Marking: 
+
+====================
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< assignment2:ThreeMusketeers >---------------------
+[INFO] Building ThreeMusketeers 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ ThreeMusketeers ---
+[WARNING] ********************************************************************************************************************
+[WARNING] * Required filename-based automodules detected. Please don't publish this project to a public artifact repository! *
+[WARNING] ********************************************************************************************************************
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ ThreeMusketeers ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ ThreeMusketeers ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running assignment2.BoardPanelTest
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 24.131 s <<< FAILURE! - in assignment2.BoardPanelTest
+[ERROR] assignment2.BoardPanelTest.testHumanFirstGreedyMode(FxRobot)  Time elapsed: 24.109 s  <<< ERROR!
+java.util.concurrent.TimeoutException
+	at assignment2/assignment2.BoardPanelTest.testHumanFirstGreedyMode(BoardPanelTest.java:250)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   BoardPanelTest.testHumanFirstGreedyMode:250 » Timeout
+[INFO] 
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0
+[INFO] 
+[ERROR] There are test failures.
+
+Please refer to C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\target\surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  28.192 s
+[INFO] Finished at: 2021-11-18T11:40:42-05:00
+[INFO] ------------------------------------------------------------------------
+
+
+====================
+
+====================
+
+Marking Command: "mvn -Dtest=BoardPanelTest#testHumanFirstRandomMode test"
+
+Tests using the Human vs Random game mode with the player as the Musketeer. Navigates to the board panel screen, makes a random move, waits for the guard to make a move and the turn to change back to the Musketeer, then verifies the guard made a move.
+====================
+
+Compilation command: ""
+
+====================
+
+Output of compilation:
+
+====================
+
+
+
+====================
+
+Output of Marking: 
+
+====================
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< assignment2:ThreeMusketeers >---------------------
+[INFO] Building ThreeMusketeers 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ ThreeMusketeers ---
+[WARNING] ********************************************************************************************************************
+[WARNING] * Required filename-based automodules detected. Please don't publish this project to a public artifact repository! *
+[WARNING] ********************************************************************************************************************
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ ThreeMusketeers ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ ThreeMusketeers ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running assignment2.BoardPanelTest
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 18.251 s <<< FAILURE! - in assignment2.BoardPanelTest
+[ERROR] assignment2.BoardPanelTest.testHumanFirstRandomMode(FxRobot)  Time elapsed: 18.233 s  <<< ERROR!
+java.util.concurrent.TimeoutException
+	at assignment2/assignment2.BoardPanelTest.testHumanFirstRandomMode(BoardPanelTest.java:160)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   BoardPanelTest.testHumanFirstRandomMode:160 » Timeout
+[INFO] 
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0
+[INFO] 
+[ERROR] There are test failures.
+
+Please refer to C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\target\surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  20.807 s
+[INFO] Finished at: 2021-11-18T11:41:04-05:00
+[INFO] ------------------------------------------------------------------------
+
+
+====================
+
+====================
+
+Marking Command: "mvn -Dtest=BoardPanelTest#testOtherPossibleFromCellsEnabled test"
+
+Tests that when a from cell is clicked, all the possible other from cells should be enabled
+====================
+
+Compilation command: ""
+
+====================
+
+Output of compilation:
+
+====================
+
+
+
+====================
+
+Output of Marking: 
+
+====================
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< assignment2:ThreeMusketeers >---------------------
+[INFO] Building ThreeMusketeers 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ ThreeMusketeers ---
+[WARNING] ********************************************************************************************************************
+[WARNING] * Required filename-based automodules detected. Please don't publish this project to a public artifact repository! *
+[WARNING] ********************************************************************************************************************
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ ThreeMusketeers ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ ThreeMusketeers ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running assignment2.BoardPanelTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.159 s - in assignment2.BoardPanelTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.519 s
+[INFO] Finished at: 2021-11-18T11:41:10-05:00
+[INFO] ------------------------------------------------------------------------
+
+
+====================
+
+====================
+
+Marking Command: "mvn -Dtest=BoardPanelTest#testCellsCantMoveToDisabled test"
+
+Tests that when a from cell is clicked, all the cells that you can't move to and are not other from cells are disabled
+====================
+
+Compilation command: ""
+
+====================
+
+Output of compilation:
+
+====================
+
+
+
+====================
+
+Output of Marking: 
+
+====================
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< assignment2:ThreeMusketeers >---------------------
+[INFO] Building ThreeMusketeers 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ ThreeMusketeers ---
+[WARNING] ********************************************************************************************************************
+[WARNING] * Required filename-based automodules detected. Please don't publish this project to a public artifact repository! *
+[WARNING] ********************************************************************************************************************
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ ThreeMusketeers ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ ThreeMusketeers ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running assignment2.BoardPanelTest
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.05 s <<< FAILURE! - in assignment2.BoardPanelTest
+[ERROR] assignment2.BoardPanelTest.testCellsCantMoveToDisabled(FxRobot)  Time elapsed: 3.032 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: Node is disabled
+     but: was <O>
+	at assignment2/assignment2.BoardPanelTest.testCellsCantMoveToDisabled(BoardPanelTest.java:76)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   BoardPanelTest.testCellsCantMoveToDisabled:76 
+Expected: Node is disabled
+     but: was <O>
+[INFO] 
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+[ERROR] There are test failures.
+
+Please refer to C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\target\surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.171 s
+[INFO] Finished at: 2021-11-18T11:41:17-05:00
+[INFO] ------------------------------------------------------------------------
+
+
+====================
+
+====================
+
+Marking Command: "mvn -Dtest=BoardPanelTest#testHumanMove test"
+
+Tests that a human vs human move can be made in the UI and verifies the move happened in the Board
+====================
+
+Compilation command: ""
+
+====================
+
+Output of compilation:
+
+====================
+
+
+
+====================
+
+Output of Marking: 
+
+====================
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< assignment2:ThreeMusketeers >---------------------
+[INFO] Building ThreeMusketeers 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ ThreeMusketeers ---
+[WARNING] ********************************************************************************************************************
+[WARNING] * Required filename-based automodules detected. Please don't publish this project to a public artifact repository! *
+[WARNING] ********************************************************************************************************************
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ ThreeMusketeers ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ ThreeMusketeers ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running assignment2.BoardPanelTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.084 s - in assignment2.BoardPanelTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.109 s
+[INFO] Finished at: 2021-11-18T11:41:25-05:00
+[INFO] ------------------------------------------------------------------------
+
+
+====================
+
+====================
+
+Marking Command: "mvn -Dtest=BoardPanelTest#testRobotFirstGreedyMode test"
+
+Tests using the Human vs Greedy game mode with the player as the Guard. Sets the board as the NearEnd game board. Navigates to the board panel screen, waits for the Musketeer to make a move and for the turn to change to Guard, then verifies the Guard has a piece to move and makes a random move.
+====================
+
+Compilation command: ""
+
+====================
+
+Output of compilation:
+
+====================
+
+
+
+====================
+
+Output of Marking: 
+
+====================
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< assignment2:ThreeMusketeers >---------------------
+[INFO] Building ThreeMusketeers 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ ThreeMusketeers ---
+[WARNING] ********************************************************************************************************************
+[WARNING] * Required filename-based automodules detected. Please don't publish this project to a public artifact repository! *
+[WARNING] ********************************************************************************************************************
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ ThreeMusketeers ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ ThreeMusketeers ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running assignment2.BoardPanelTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.009 s - in assignment2.BoardPanelTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.576 s
+[INFO] Finished at: 2021-11-18T11:41:32-05:00
+[INFO] ------------------------------------------------------------------------
+
+
+====================
+
+====================
+
+Marking Command: "mvn -Dtest=BoardPanelTest#testPossibleDestinationsEnabled test"
+
+Tests that when a from cell is clicked, all the possible destinations should be enabled
+====================
+
+Compilation command: ""
+
+====================
+
+Output of compilation:
+
+====================
+
+
+
+====================
+
+Output of Marking: 
+
+====================
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< assignment2:ThreeMusketeers >---------------------
+[INFO] Building ThreeMusketeers 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ ThreeMusketeers ---
+[WARNING] ********************************************************************************************************************
+[WARNING] * Required filename-based automodules detected. Please don't publish this project to a public artifact repository! *
+[WARNING] ********************************************************************************************************************
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ ThreeMusketeers ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ ThreeMusketeers ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running assignment2.BoardPanelTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.199 s - in assignment2.BoardPanelTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.603 s
+[INFO] Finished at: 2021-11-18T11:41:39-05:00
+[INFO] ------------------------------------------------------------------------
+
+
+====================
+
+====================
+
+Marking Command: "mvn -Dtest=BoardPanelTest#testRobotFirstRandomMode test"
+
+Tests using the Human vs Random game mode with the player as the Guard. Navigates to the board panel screen, waits for the Musketeer to make a move and for the turn to change to Guard, then verifies the Guard has a piece to move and makes a random move.
+====================
+
+Compilation command: ""
+
+====================
+
+Output of compilation:
+
+====================
+
+
+
+====================
+
+Output of Marking: 
+
+====================
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< assignment2:ThreeMusketeers >---------------------
+[INFO] Building ThreeMusketeers 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ ThreeMusketeers ---
+[WARNING] ********************************************************************************************************************
+[WARNING] * Required filename-based automodules detected. Please don't publish this project to a public artifact repository! *
+[WARNING] ********************************************************************************************************************
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ ThreeMusketeers ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ ThreeMusketeers ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running assignment2.BoardPanelTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.177 s - in assignment2.BoardPanelTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.599 s
+[INFO] Finished at: 2021-11-18T11:41:47-05:00
+[INFO] ------------------------------------------------------------------------
+
+
+====================
+
+====================
+
+Marking Command: "mvn -Dtest=BoardPanelTest#testHumanMoveWithSideLabelWorking test"
+
+Tests that when a move occurs, the message label changes appropriately to whose turn it is and contains 'GUARD' or 'MUSKETEER'
+====================
+
+Compilation command: ""
+
+====================
+
+Output of compilation:
+
+====================
+
+
+
+====================
+
+Output of Marking: 
+
+====================
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< assignment2:ThreeMusketeers >---------------------
+[INFO] Building ThreeMusketeers 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ ThreeMusketeers ---
+[WARNING] ********************************************************************************************************************
+[WARNING] * Required filename-based automodules detected. Please don't publish this project to a public artifact repository! *
+[WARNING] ********************************************************************************************************************
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ ThreeMusketeers ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ ThreeMusketeers ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running assignment2.BoardPanelTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.312 s - in assignment2.BoardPanelTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.755 s
+[INFO] Finished at: 2021-11-18T11:41:54-05:00
+[INFO] ------------------------------------------------------------------------
+
+
+====================
+
+====================
+
+Marking Command: "mvn -Dtest=BoardPanelTest#testHumanMultipleMovesGuardWins test"
+
+Tests playing a series of moves in the human vs human game mode and makes the Guard win. Verifies that all the moves work and when the game is over, the message label is updated to contain 'GUARD', all the cells are disabled, and the winner is set in the Board class.
+====================
+
+Compilation command: ""
+
+====================
+
+Output of compilation:
+
+====================
+
+
+
+====================
+
+Output of Marking: 
+
+====================
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< assignment2:ThreeMusketeers >---------------------
+[INFO] Building ThreeMusketeers 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ ThreeMusketeers ---
+[WARNING] ********************************************************************************************************************
+[WARNING] * Required filename-based automodules detected. Please don't publish this project to a public artifact repository! *
+[WARNING] ********************************************************************************************************************
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ ThreeMusketeers ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ ThreeMusketeers ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running assignment2.BoardPanelTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.501 s - in assignment2.BoardPanelTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  22.118 s
+[INFO] Finished at: 2021-11-18T11:42:17-05:00
+[INFO] ------------------------------------------------------------------------
+
+
+====================
+
+====================
+
+Marking Command: "mvn -Dtest=ModeInputPanelTest#testChangeBoardListHasBoard test"
+
+Verifies that the boards list can show all the boards in the boards folder. Then clicks change board.
+====================
+
+Compilation command: ""
+
+====================
+
+Output of compilation:
+
+====================
+
+
+
+====================
+
+Output of Marking: 
+
+====================
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< assignment2:ThreeMusketeers >---------------------
+[INFO] Building ThreeMusketeers 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ ThreeMusketeers ---
+[WARNING] ********************************************************************************************************************
+[WARNING] * Required filename-based automodules detected. Please don't publish this project to a public artifact repository! *
+[WARNING] ********************************************************************************************************************
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ ThreeMusketeers ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ ThreeMusketeers ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running assignment2.ModeInputPanelTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.215 s - in assignment2.ModeInputPanelTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.392 s
+[INFO] Finished at: 2021-11-18T11:42:23-05:00
+[INFO] ------------------------------------------------------------------------
+
+
+====================
+
+====================
+
+Marking Command: "mvn -Dtest=ModeInputPanelTest#testHumanGreedy test"
+
+Tests clicking the Human vs Greedy game mode button and verifies that the game mode has been set in the view.
+====================
+
+Compilation command: ""
+
+====================
+
+Output of compilation:
+
+====================
+
+
+
+====================
+
+Output of Marking: 
+
+====================
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< assignment2:ThreeMusketeers >---------------------
+[INFO] Building ThreeMusketeers 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ ThreeMusketeers ---
+[WARNING] ********************************************************************************************************************
+[WARNING] * Required filename-based automodules detected. Please don't publish this project to a public artifact repository! *
+[WARNING] ********************************************************************************************************************
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ ThreeMusketeers ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ ThreeMusketeers ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running assignment2.ModeInputPanelTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.275 s - in assignment2.ModeInputPanelTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.750 s
+[INFO] Finished at: 2021-11-18T11:42:29-05:00
+[INFO] ------------------------------------------------------------------------
+
+
+====================
+
+====================
+
+Marking Command: "mvn -Dtest=ModeInputPanelTest#testHuman test"
+
+Tests clicking the Human vs Human game mode button and verifies that the game mode has been set in the view.
+====================
+
+Compilation command: ""
+
+====================
+
+Output of compilation:
+
+====================
+
+
+
+====================
+
+Output of Marking: 
+
+====================
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< assignment2:ThreeMusketeers >---------------------
+[INFO] Building ThreeMusketeers 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ ThreeMusketeers ---
+[WARNING] ********************************************************************************************************************
+[WARNING] * Required filename-based automodules detected. Please don't publish this project to a public artifact repository! *
+[WARNING] ********************************************************************************************************************
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ ThreeMusketeers ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ ThreeMusketeers ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running assignment2.ModeInputPanelTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.307 s - in assignment2.ModeInputPanelTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.709 s
+[INFO] Finished at: 2021-11-18T11:42:35-05:00
+[INFO] ------------------------------------------------------------------------
+
+
+====================
+
+====================
+
+Marking Command: "mvn -Dtest=ModeInputPanelTest#testHumanRandom test"
+
+Tests clicking the Human vs Random game mode button and verifies that the game mode has been set in the view.
+====================
+
+Compilation command: ""
+
+====================
+
+Output of compilation:
+
+====================
+
+
+
+====================
+
+Output of Marking: 
+
+====================
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< assignment2:ThreeMusketeers >---------------------
+[INFO] Building ThreeMusketeers 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ ThreeMusketeers ---
+[WARNING] ********************************************************************************************************************
+[WARNING] * Required filename-based automodules detected. Please don't publish this project to a public artifact repository! *
+[WARNING] ********************************************************************************************************************
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ ThreeMusketeers ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ ThreeMusketeers ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running assignment2.ModeInputPanelTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.823 s - in assignment2.ModeInputPanelTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.714 s
+[INFO] Finished at: 2021-11-18T11:42:39-05:00
+[INFO] ------------------------------------------------------------------------
+
+
+====================
+
+====================
+
+Marking Command: "mvn -Dtest=ModeInputPanelTest#testChangeBoardPanelUpdated test"
+
+Verifies that the boards list shows the NearEnd board, clicks change board and makes sure the new board is shown in the board panel with the proper cells disabled and enabled.
+====================
+
+Compilation command: ""
+
+====================
+
+Output of compilation:
+
+====================
+
+
+
+====================
+
+Output of Marking: 
+
+====================
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< assignment2:ThreeMusketeers >---------------------
+[INFO] Building ThreeMusketeers 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ ThreeMusketeers ---
+[WARNING] ********************************************************************************************************************
+[WARNING] * Required filename-based automodules detected. Please don't publish this project to a public artifact repository! *
+[WARNING] ********************************************************************************************************************
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ ThreeMusketeers ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ ThreeMusketeers ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running assignment2.ModeInputPanelTest
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.22 s <<< FAILURE! - in assignment2.ModeInputPanelTest
+[ERROR] assignment2.ModeInputPanelTest.testChangeBoardPanelUpdated(FxRobot)  Time elapsed: 3.203 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: NearEnd.txt board should not have a piece at row: 0 col: 4 ==> expected: <false> but was: <true>
+	at assignment2/assignment2.ModeInputPanelTest.verifyChangedBoardPanelUpdated(ModeInputPanelTest.java:130)
+	at assignment2/assignment2.ModeInputPanelTest.testChangeBoardPanelUpdated(ModeInputPanelTest.java:93)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   ModeInputPanelTest.testChangeBoardPanelUpdated:93->verifyChangedBoardPanelUpdated:130 NearEnd.txt board should not have a piece at row: 0 col: 4 ==> expected: <false> but was: <true>
+[INFO] 
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+[ERROR] There are test failures.
+
+Please refer to C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\target\surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.061 s
+[INFO] Finished at: 2021-11-18T11:42:47-05:00
+[INFO] ------------------------------------------------------------------------
+
+
+====================
+
+====================
+
+Marking Command: "mvn -Dtest=ModeInputPanelTest#testChangeBoardLabelUpdated test"
+
+Verifies that the boards list shows the NearEnd board, clicks change board and makes sure the current board label contains the new file name.
+====================
+
+Compilation command: ""
+
+====================
+
+Output of compilation:
+
+====================
+
+
+
+====================
+
+Output of Marking: 
+
+====================
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< assignment2:ThreeMusketeers >---------------------
+[INFO] Building ThreeMusketeers 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ ThreeMusketeers ---
+[WARNING] ********************************************************************************************************************
+[WARNING] * Required filename-based automodules detected. Please don't publish this project to a public artifact repository! *
+[WARNING] ********************************************************************************************************************
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ ThreeMusketeers ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ ThreeMusketeers ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running assignment2.ModeInputPanelTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.45 s - in assignment2.ModeInputPanelTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.350 s
+[INFO] Finished at: 2021-11-18T11:42:53-05:00
+[INFO] ------------------------------------------------------------------------
+
+
+====================
+
+====================
+
+Marking Command: "mvn -Dtest=SideInputPanelTest#testHumanGreedyGuardSide test"
+
+Tests setting the game mode to Human vs Greedy, clicking the Guard side, waits for the Musketeer to make its move and the turn to change to Guard, verifies that the guard's possible cells to move are enabled, then verifies that the musketeer agent is a greedy agent and the guard agent is a human agent in the view.
+====================
+
+Compilation command: ""
+
+====================
+
+Output of compilation:
+
+====================
+
+
+
+====================
+
+Output of Marking: 
+
+====================
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< assignment2:ThreeMusketeers >---------------------
+[INFO] Building ThreeMusketeers 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ ThreeMusketeers ---
+[WARNING] ********************************************************************************************************************
+[WARNING] * Required filename-based automodules detected. Please don't publish this project to a public artifact repository! *
+[WARNING] ********************************************************************************************************************
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ ThreeMusketeers ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ ThreeMusketeers ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running assignment2.SideInputPanelTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.334 s - in assignment2.SideInputPanelTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.484 s
+[INFO] Finished at: 2021-11-18T11:43:02-05:00
+[INFO] ------------------------------------------------------------------------
+
+
+====================
+
+====================
+
+Marking Command: "mvn -Dtest=SideInputPanelTest#testHumanRandomGuardSide test"
+
+Tests setting the game mode to Human vs Random, clicking the Guard side, waits for the Musketeer to make its move and the turn to change to Guard, verifies that the guard's possible cells to move are enabled, then verifies that the musketeer agent is a random agent and the guard agent is a human agent in the view.
+====================
+
+Compilation command: ""
+
+====================
+
+Output of compilation:
+
+====================
+
+
+
+====================
+
+Output of Marking: 
+
+====================
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< assignment2:ThreeMusketeers >---------------------
+[INFO] Building ThreeMusketeers 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ ThreeMusketeers ---
+[WARNING] ********************************************************************************************************************
+[WARNING] * Required filename-based automodules detected. Please don't publish this project to a public artifact repository! *
+[WARNING] ********************************************************************************************************************
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ ThreeMusketeers ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ ThreeMusketeers ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running assignment2.SideInputPanelTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.693 s - in assignment2.SideInputPanelTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.981 s
+[INFO] Finished at: 2021-11-18T11:43:08-05:00
+[INFO] ------------------------------------------------------------------------
+
+
+====================
+
+====================
+
+Marking Command: "mvn -Dtest=SideInputPanelTest#testHumanGreedySideLabels test"
+
+Tests that the side input panel is shown when the human vs greedy game mode is set and verifies that the two options are Musketeer and Guard.
+====================
+
+Compilation command: ""
+
+====================
+
+Output of compilation:
+
+====================
+
+
+
+====================
+
+Output of Marking: 
+
+====================
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< assignment2:ThreeMusketeers >---------------------
+[INFO] Building ThreeMusketeers 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ ThreeMusketeers ---
+[WARNING] ********************************************************************************************************************
+[WARNING] * Required filename-based automodules detected. Please don't publish this project to a public artifact repository! *
+[WARNING] ********************************************************************************************************************
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ ThreeMusketeers ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ ThreeMusketeers ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running assignment2.SideInputPanelTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.137 s - in assignment2.SideInputPanelTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.529 s
+[INFO] Finished at: 2021-11-18T11:43:14-05:00
+[INFO] ------------------------------------------------------------------------
+
+
+====================
+
+====================
+
+Marking Command: "mvn -Dtest=SideInputPanelTest#testHumanRandomSideLabels test"
+
+Tests that the side input panel is shown when the human vs random game mode is set and verifies that the two options are Musketeer and Guard.
+====================
+
+Compilation command: ""
+
+====================
+
+Output of compilation:
+
+====================
+
+
+
+====================
+
+Output of Marking: 
+
+====================
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< assignment2:ThreeMusketeers >---------------------
+[INFO] Building ThreeMusketeers 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ ThreeMusketeers ---
+[WARNING] ********************************************************************************************************************
+[WARNING] * Required filename-based automodules detected. Please don't publish this project to a public artifact repository! *
+[WARNING] ********************************************************************************************************************
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ ThreeMusketeers ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ ThreeMusketeers ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running assignment2.SideInputPanelTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.653 s - in assignment2.SideInputPanelTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.880 s
+[INFO] Finished at: 2021-11-18T11:43:19-05:00
+[INFO] ------------------------------------------------------------------------
+
+
+====================
+
+====================
+
+Marking Command: "mvn -Dtest=SideInputPanelTest#testHumanNoSideSelectionPanel test"
+
+Tests that the side input panel is not shown when the human vs human game mode is set and goes straight to the board panel view.
+====================
+
+Compilation command: ""
+
+====================
+
+Output of compilation:
+
+====================
+
+
+
+====================
+
+Output of Marking: 
+
+====================
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< assignment2:ThreeMusketeers >---------------------
+[INFO] Building ThreeMusketeers 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ ThreeMusketeers ---
+[WARNING] ********************************************************************************************************************
+[WARNING] * Required filename-based automodules detected. Please don't publish this project to a public artifact repository! *
+[WARNING] ********************************************************************************************************************
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ ThreeMusketeers ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ ThreeMusketeers ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running assignment2.SideInputPanelTest
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.889 s <<< FAILURE! - in assignment2.SideInputPanelTest
+[ERROR] assignment2.SideInputPanelTest.testHumanNoSideSelectionPanel(FxRobot)  Time elapsed: 1.872 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: Node is disabled
+     but: was <O>
+	at assignment2/assignment2.SideInputPanelTest.testHumanNoSideSelectionPanel(SideInputPanelTest.java:44)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   SideInputPanelTest.testHumanNoSideSelectionPanel:44 
+Expected: Node is disabled
+     but: was <O>
+[INFO] 
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+[ERROR] There are test failures.
+
+Please refer to C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\target\surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.322 s
+[INFO] Finished at: 2021-11-18T11:43:24-05:00
+[INFO] ------------------------------------------------------------------------
+
+
+====================
+
+====================
+
+Marking Command: "mvn -Dtest=SideInputPanelTest#testHumanGreedyMusketeerSide test"
+
+Tests setting the game mode to Human vs Greedy, clicking the Musketeer side, verifies the message label contains 'MUSKETEER' for the musketeer's turn and that cell C4 is disabled with all the cells that can be moved enabled, and that the musketeer agent is a human agent and the guard agent is a greedy agent in the view.
+====================
+
+Compilation command: ""
+
+====================
+
+Output of compilation:
+
+====================
+
+
+
+====================
+
+Output of Marking: 
+
+====================
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< assignment2:ThreeMusketeers >---------------------
+[INFO] Building ThreeMusketeers 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ ThreeMusketeers ---
+[WARNING] ********************************************************************************************************************
+[WARNING] * Required filename-based automodules detected. Please don't publish this project to a public artifact repository! *
+[WARNING] ********************************************************************************************************************
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ ThreeMusketeers ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ ThreeMusketeers ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running assignment2.SideInputPanelTest
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.184 s <<< FAILURE! - in assignment2.SideInputPanelTest
+[ERROR] assignment2.SideInputPanelTest.testHumanGreedyMusketeerSide(FxRobot)  Time elapsed: 2.163 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: Node is disabled
+     but: was <O>
+	at assignment2/assignment2.SideInputPanelTest.verifyMusketeerSideAgents(SideInputPanelTest.java:114)
+	at assignment2/assignment2.SideInputPanelTest.testHumanGreedyMusketeerSide(SideInputPanelTest.java:82)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   SideInputPanelTest.testHumanGreedyMusketeerSide:82->verifyMusketeerSideAgents:114 
+Expected: Node is disabled
+     but: was <O>
+[INFO] 
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+[ERROR] There are test failures.
+
+Please refer to C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\target\surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.309 s
+[INFO] Finished at: 2021-11-18T11:43:30-05:00
+[INFO] ------------------------------------------------------------------------
+
+
+====================
+
+====================
+
+Marking Command: "mvn -Dtest=SideInputPanelTest#testHumanRandomMusketeerSide test"
+
+Tests setting the game mode to Human vs Random, clicking the Musketeer side, verifies the message label contains 'MUSKETEER' for the musketeer's turn and that cell C4 is disabled with all the cells that can be moved enabled, and that the musketeer agent is a human agent and the guard agent is a random agent in the view.
+====================
+
+Compilation command: ""
+
+====================
+
+Output of compilation:
+
+====================
+
+
+
+====================
+
+Output of Marking: 
+
+====================
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< assignment2:ThreeMusketeers >---------------------
+[INFO] Building ThreeMusketeers 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ ThreeMusketeers ---
+[WARNING] ********************************************************************************************************************
+[WARNING] * Required filename-based automodules detected. Please don't publish this project to a public artifact repository! *
+[WARNING] ********************************************************************************************************************
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ ThreeMusketeers ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ ThreeMusketeers ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running assignment2.SideInputPanelTest
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.673 s <<< FAILURE! - in assignment2.SideInputPanelTest
+[ERROR] assignment2.SideInputPanelTest.testHumanRandomMusketeerSide(FxRobot)  Time elapsed: 3.649 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: Node is disabled
+     but: was <O>
+	at assignment2/assignment2.SideInputPanelTest.verifyMusketeerSideAgents(SideInputPanelTest.java:114)
+	at assignment2/assignment2.SideInputPanelTest.testHumanRandomMusketeerSide(SideInputPanelTest.java:71)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   SideInputPanelTest.testHumanRandomMusketeerSide:71->verifyMusketeerSideAgents:114 
+Expected: Node is disabled
+     but: was <O>
+[INFO] 
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+[ERROR] There are test failures.
+
+Please refer to C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\target\surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.998 s
+[INFO] Finished at: 2021-11-18T11:43:38-05:00
+[INFO] ------------------------------------------------------------------------
+
+
+====================
+
+====================
+
+Marking Command: "mvn -Dtest=ViewControlsTest#testSaveButtonFileExists test"
+
+Tests getting to the board panel screen, entering 'Starter.txt', clicking save, and verifies that the save file error label has the save file exists error text.
+====================
+
+Compilation command: ""
+
+====================
+
+Output of compilation:
+
+====================
+
+
+
+====================
+
+Output of Marking: 
+
+====================
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< assignment2:ThreeMusketeers >---------------------
+[INFO] Building ThreeMusketeers 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ ThreeMusketeers ---
+[WARNING] ********************************************************************************************************************
+[WARNING] * Required filename-based automodules detected. Please don't publish this project to a public artifact repository! *
+[WARNING] ********************************************************************************************************************
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ ThreeMusketeers ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ ThreeMusketeers ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running assignment2.ViewControlsTest
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.304 s <<< FAILURE! - in assignment2.ViewControlsTest
+[ERROR] assignment2.ViewControlsTest.testSaveButtonFileExists(FxRobot)  Time elapsed: 5.29 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: Labeled has a string containing "Error: File already exists"
+     but: was ""
+	at assignment2/assignment2.ViewControlsTest.testSaveButtonFileExists(ViewControlsTest.java:104)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   ViewControlsTest.testSaveButtonFileExists:104 
+Expected: Labeled has a string containing "Error: File already exists"
+     but: was ""
+[INFO] 
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+[ERROR] There are test failures.
+
+Please refer to C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\target\surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.348 s
+[INFO] Finished at: 2021-11-18T11:43:47-05:00
+[INFO] ------------------------------------------------------------------------
+
+
+====================
+
+====================
+
+Marking Command: "mvn -Dtest=ViewControlsTest#testSaveButtonFileNotTxt test"
+
+Tests getting to the board panel screen, entering a file name that does not end with .txt, clicking save, and verifies that the save file error label has the save file not txt error message.
+====================
+
+Compilation command: ""
+
+====================
+
+Output of compilation:
+
+====================
+
+
+
+====================
+
+Output of Marking: 
+
+====================
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< assignment2:ThreeMusketeers >---------------------
+[INFO] Building ThreeMusketeers 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ ThreeMusketeers ---
+[WARNING] ********************************************************************************************************************
+[WARNING] * Required filename-based automodules detected. Please don't publish this project to a public artifact repository! *
+[WARNING] ********************************************************************************************************************
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ ThreeMusketeers ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ ThreeMusketeers ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running assignment2.ViewControlsTest
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.372 s <<< FAILURE! - in assignment2.ViewControlsTest
+[ERROR] assignment2.ViewControlsTest.testSaveButtonFileNotTxt(FxRobot)  Time elapsed: 4.358 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: Labeled has a string containing "Error: File must end with .txt"
+     but: was ""
+	at assignment2/assignment2.ViewControlsTest.testSaveButtonFileNotTxt(ViewControlsTest.java:123)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   ViewControlsTest.testSaveButtonFileNotTxt:123 
+Expected: Labeled has a string containing "Error: File must end with .txt"
+     but: was ""
+[INFO] 
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+[ERROR] There are test failures.
+
+Please refer to C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\target\surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.180 s
+[INFO] Finished at: 2021-11-18T11:43:54-05:00
+[INFO] ------------------------------------------------------------------------
+
+
+====================
+
+====================
+
+Marking Command: "mvn -Dtest=ViewControlsTest#testSaveButtonLabelUpdated test"
+
+Tests getting to the board panel screen, entering a valid file name into the save file name text field, clicks on save button, verifies that the file has been saved and that the save file error label contains the saveFileSuccess message.
+====================
+
+Compilation command: ""
+
+====================
+
+Output of compilation:
+
+====================
+
+
+
+====================
+
+Output of Marking: 
+
+====================
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< assignment2:ThreeMusketeers >---------------------
+[INFO] Building ThreeMusketeers 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ ThreeMusketeers ---
+[WARNING] ********************************************************************************************************************
+[WARNING] * Required filename-based automodules detected. Please don't publish this project to a public artifact repository! *
+[WARNING] ********************************************************************************************************************
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ ThreeMusketeers ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ ThreeMusketeers ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running assignment2.ViewControlsTest
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 8.715 s <<< FAILURE! - in assignment2.ViewControlsTest
+[ERROR] assignment2.ViewControlsTest.testSaveButtonLabelUpdated(FxRobot)  Time elapsed: 8.699 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: Labeled has a string containing "Saved board"
+     but: was ""
+	at assignment2/assignment2.ViewControlsTest.testSaveButtonLabelUpdated(ViewControlsTest.java:84)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   ViewControlsTest.testSaveButtonLabelUpdated:84 
+Expected: Labeled has a string containing "Saved board"
+     but: was ""
+[INFO] 
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+[ERROR] There are test failures.
+
+Please refer to C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\target\surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.939 s
+[INFO] Finished at: 2021-11-18T11:44:06-05:00
+[INFO] ------------------------------------------------------------------------
+
+
+====================
+
+====================
+
+Marking Command: "mvn -Dtest=ViewControlsTest#testSaveButton test"
+
+Tests getting to the board panel screen, entering a valid file name into the save file name text field, clicks on save button, verifies that the file has been saved.
+====================
+
+Compilation command: ""
+
+====================
+
+Output of compilation:
+
+====================
+
+
+
+====================
+
+Output of Marking: 
+
+====================
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< assignment2:ThreeMusketeers >---------------------
+[INFO] Building ThreeMusketeers 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ ThreeMusketeers ---
+[WARNING] ********************************************************************************************************************
+[WARNING] * Required filename-based automodules detected. Please don't publish this project to a public artifact repository! *
+[WARNING] ********************************************************************************************************************
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ ThreeMusketeers ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ ThreeMusketeers ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running assignment2.ViewControlsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.835 s - in assignment2.ViewControlsTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  11.621 s
+[INFO] Finished at: 2021-11-18T11:44:19-05:00
+[INFO] ------------------------------------------------------------------------
+
+
+====================
+
+====================
+
+Marking Command: "mvn -Dtest=ViewControlsTest#testRestartButton test"
+
+Tests getting to the board panel view, making a random move, clicking the restart button, verifies the menu game mode buttons are showing and the board in the model is the same as the board currently selected in the board list.
+====================
+
+Compilation command: ""
+
+====================
+
+Output of compilation:
+
+====================
+
+
+
+====================
+
+Output of Marking: 
+
+====================
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< assignment2:ThreeMusketeers >---------------------
+[INFO] Building ThreeMusketeers 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ ThreeMusketeers ---
+[WARNING] ********************************************************************************************************************
+[WARNING] * Required filename-based automodules detected. Please don't publish this project to a public artifact repository! *
+[WARNING] ********************************************************************************************************************
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ ThreeMusketeers ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ ThreeMusketeers ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running assignment2.ViewControlsTest
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.51 s <<< FAILURE! - in assignment2.ViewControlsTest
+[ERROR] assignment2.ViewControlsTest.testRestartButton(FxRobot)  Time elapsed: 4.493 s  <<< ERROR!
+org.testfx.service.query.EmptyNodeQueryException: 
+there is no node in the scene-graph matching the query: NodeQuery: from nodes: [BorderPane[id=BorderPane, styleClass=root]],
+lookup by function: "org.testfx.util.NodeQueryUtils$$Lambda$790/0x00000007c032fd48@4c2bb6e0",
+lookup by selector: "#HumanvsHuman"
+	at assignment2/assignment2.ViewControlsTest.testRestartButton(ViewControlsTest.java:51)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   ViewControlsTest.testRestartButton:51 » EmptyNodeQuery there is no node in the...
+[INFO] 
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0
+[INFO] 
+[ERROR] There are test failures.
+
+Please refer to C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\target\surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.824 s
+[INFO] Finished at: 2021-11-18T11:44:27-05:00
+[INFO] ------------------------------------------------------------------------
+
+
+====================
+
+====================
+
+Marking Command: "mvn -Dtest=ViewControlsTest#testUndoButton test"
+
+Tests the Human vs Human game mode with the human as the Musketeer, gets to the board panel screen, verifies that the undo button is disabled, makes a move as the Musketeer, clicks undo, verifies that the board is the same as a fresh board.
+====================
+
+Compilation command: ""
+
+====================
+
+Output of compilation:
+
+====================
+
+
+
+====================
+
+Output of Marking: 
+
+====================
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< assignment2:ThreeMusketeers >---------------------
+[INFO] Building ThreeMusketeers 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ ThreeMusketeers ---
+[WARNING] ********************************************************************************************************************
+[WARNING] * Required filename-based automodules detected. Please don't publish this project to a public artifact repository! *
+[WARNING] ********************************************************************************************************************
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ThreeMusketeers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ ThreeMusketeers ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ ThreeMusketeers ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running assignment2.ViewControlsTest
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.701 s <<< FAILURE! - in assignment2.ViewControlsTest
+[ERROR] assignment2.ViewControlsTest.testUndoButton(FxRobot)  Time elapsed: 4.685 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Piece did not exist on cell ==> expected: not <null>
+	at assignment2/assignment2.ViewControlsTest.testUndoButton(ViewControlsTest.java:143)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   ViewControlsTest.testUndoButton:143 Piece did not exist on cell ==> expected: not <null>
+[INFO] 
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+[ERROR] There are test failures.
+
+Please refer to C:\Users\Ishaan\Desktop\a2-marker-3\assignment2-marking-container\Ethann01\target\surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.362 s
+[INFO] Finished at: 2021-11-18T11:44:35-05:00
+[INFO] ------------------------------------------------------------------------
+
+
+====================
+
+
+Total Assignment Mark: 61.0
